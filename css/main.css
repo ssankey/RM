@@ -834,6 +834,20 @@ header .logo a:hover, header .logo .widget_categories li span:hover, .widget_cat
 /*-------------------------
 	4.0 - gallery sections
 --------------------------*/
+
+.video-back{
+  width: 100%;
+  height: auto;
+}
+
+@media (min-aspect-ratio:16/9) {
+
+  .back-video{
+    width: 100%;
+    height: auto;
+  }
+  
+}
 .gallery-single .thumb {
   position: relative;
   overflow: hidden;
